@@ -20,7 +20,7 @@ function Footer() {
             </Link>
           </li>
           <li className="w-9 transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased">
-            <Link href={`https://github.com/Ruslan0019`}>
+            <Link href={`https://github.com/Ruslan0019`} title="GitHub" alt="GitHub">
               <svg width="35" height="31" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   fillRule="evenodd"
@@ -36,7 +36,11 @@ function Footer() {
             </Link>
           </li>
           <li className="w-9 transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased">
-            <Link href={`https://www.linkedin.com/in/ruslan-afanasiev-6ab32a279/`}>
+            <Link
+              href={`https://www.linkedin.com/in/ruslan-afanasiev-6ab32a279/`}
+              title="LinkedIn"
+              alt="LinkedIn"
+            >
               <svg width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M26.907 26.374h-4.593v-6.962c0-1.66-.03-3.796-2.39-3.796-2.392 0-2.758 1.808-2.758 3.675v7.082h-4.593V12.058h4.41v1.956h.061c.898-1.485 2.574-2.376 4.351-2.312 4.656 0 5.514 2.963 5.514 6.819l-.002 7.853ZM7.39 10.1c-1.463 0-2.666-1.164-2.666-2.58 0-1.415 1.203-2.58 2.666-2.58 1.462 0 2.665 1.165 2.665 2.58s-1.203 2.58-2.665 2.58Zm2.297 16.273H5.089V12.058h4.598v14.316ZM29.197.814H2.781C1.54.8.508 1.776.493 2.976v25.67c.015 1.202 1.047 2.178 2.288 2.166h26.416c1.244.015 2.28-.962 2.296-2.165V2.974C31.477 1.772 30.44.796 29.197.812v.002Z"

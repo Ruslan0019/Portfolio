@@ -13,7 +13,7 @@ function Header() {
     <>
       <header className="pt-2 pb-3 border-b border-border md:pt-3 md:pb-6">
         <nav className="flex justify-between items-center">
-          <Link href={`/`}>
+          <Link href={`/`} title="Home" alt="Home">
             <h1 className="text-3xl md:text-45px font-bold font-MAZIUS-Italic italic transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased">
               Afanasiev Ruslan
             </h1>
