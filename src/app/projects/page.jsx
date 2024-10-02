@@ -10,7 +10,14 @@ function projects() {
       <ul>
         <li className="max-w-327px">
           <div className="flex h-28">
-            <Image src={TikMaker} alt="TikMaker" title="TikMaker" width={327} height={114} />
+            <Image
+              className=" object-cover"
+              src={TikMaker}
+              alt="TikMaker"
+              title="TikMaker"
+              width={327}
+              height={114}
+            />
           </div>
           <h2>WEB DEVELOPMENT</h2>
           <h2>Personal Website</h2>
