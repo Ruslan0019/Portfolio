@@ -23,7 +23,7 @@ function Card() {
                 <li className="text-black transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased">
                   <Link href={`https://t.me/Ruslan_0019`} title="Telegram" alt="Telegram">
                     <Image
-                      className=" md:w-8"
+                      className=" md:w-9"
                       src={telegram}
                       width={32}
                       title="Telegram"
@@ -34,7 +34,7 @@ function Card() {
                 <li className="text-black transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased">
                   <Link href={`https://github.com/Ruslan0019`} title="GitHub" alt="GitHub">
                     <Image
-                      className=" md:w-8"
+                      className=" md:w-9"
                       src={github}
                       width={32}
                       title="Github"
@@ -49,7 +49,7 @@ function Card() {
                     alt="LinkedIn"
                   >
                     <Image
-                      className=" md:w-8"
+                      className=" md:w-9"
                       src={linkedIn}
                       width={32}
                       title="LinkedIn"
