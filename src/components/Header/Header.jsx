@@ -20,7 +20,7 @@ function Header() {
           </Link>
           <div className="cursor-pointer ml-auto" onClick={toggleMenu}>
             <svg
-              className="w-4 h-4 md:w-6 md:h-6 transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased"
+              className="w-4 h-4 md:w-6 md:h-6 transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased"
               viewBox="0 0 30 30"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
