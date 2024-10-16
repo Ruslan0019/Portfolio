@@ -18,14 +18,14 @@ function Card() {
             project 😎
           </p>
           <div className="flex mt-5 md:mt-8 xl:mt-11 justify-between items-center ">
-            <div className="ml-5 w-16 md:w-auto">
+            <div className="ml-5 w-20 md:w-auto">
               <ul className="flex flex-wrap md:flex-nowrap gap-3 md:gap-6 ">
                 <li className="text-black transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased">
                   <Link href={`https://t.me/Ruslan_0019`} title="Telegram" alt="Telegram">
                     <Image
                       className=" md:w-8"
                       src={telegram}
-                      width={25}
+                      width={32}
                       title="Telegram"
                       alt="Telegram"
                     />
@@ -36,7 +36,7 @@ function Card() {
                     <Image
                       className=" md:w-8"
                       src={github}
-                      width={25}
+                      width={32}
                       title="Github"
                       alt="Github"
                     />
@@ -51,7 +51,7 @@ function Card() {
                     <Image
                       className=" md:w-8"
                       src={linkedIn}
-                      width={25}
+                      width={32}
                       title="LinkedIn"
                       alt="LinkedIn"
                     />
