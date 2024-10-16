@@ -13,12 +13,12 @@ function Footer() {
         <ul className="flex gap-6 items-center justify-center">
           <li className=" transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased">
             <Link href={`https://t.me/Ruslan_0019`} title="Telegram">
-              <Image className="md:w-8" src={telegram} width={32} alt="Telegram" title="Telegram" />
+              <Image className="md:w-9" src={telegram} width={32} alt="Telegram" title="Telegram" />
             </Link>
           </li>
           <li className=" transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased">
             <Link href={`https://github.com/Ruslan0019`} title="GitHub" alt="GitHub">
-              <Image className="md:w-8" src={github} width={32} title="Github" alt="Github" />
+              <Image className="md:w-9" src={github} width={32} title="Github" alt="Github" />
             </Link>
           </li>
           <li className=" transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased">
@@ -28,7 +28,7 @@ function Footer() {
               alt="LinkedIn"
             >
               <Image
-                className=" md:w-8"
+                className=" md:w-9"
                 src={linkedIn}
                 width={32}
                 title="LinkedIn"
