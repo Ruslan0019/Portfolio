@@ -75,7 +75,6 @@ const projectList = [
     image: Yacht,
     link: "https://lakanna.github.io/bestteam-ourteam/index.html",
     tech: [
-      { icon: <FaReact size={25} className=" text-blue-500" />, name: "React" },
       {
         icon: <FaJs size={25} className=" text-[#FFD600]" />,
         name: "JavaScript",
@@ -96,7 +95,6 @@ const projectList = [
     image: Bookshelf,
     link: "https://bonny-art.github.io/it-frogs-tp-02/index.html",
     tech: [
-      { icon: <FaReact size={25} className=" text-blue-500" />, name: "React" },
       {
         icon: <FaJs size={25} className=" text-[#FFD600]" />,
         name: "JavaScript",
