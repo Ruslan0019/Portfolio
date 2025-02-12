@@ -14,14 +14,18 @@ function Card() {
             hello!
           </h2>
           <p className="text-black font-Avenir-Regular  ml-5 mt-3 w-292px md:w-372px text-base xl:text-xl leading-[130%]">
-            I&apos;m Amanda, and I currently attend UBC for engineering. Welcome to my first web dev
-            project 😎
+            I&apos;m Ruslan, and I am Full-stack developer
           </p>
           <div className="flex mt-5 md:mt-8 xl:mt-11 justify-between items-center ">
             <div className="ml-5 w-20 md:w-auto">
               <ul className="flex flex-wrap md:flex-nowrap gap-3 md:gap-6 ">
                 <li className="text-black transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased">
-                  <Link href={`https://t.me/Ruslan_0019`} title="Telegram" alt="Telegram">
+                  <Link
+                    href={`https://t.me/const_YourName`}
+                    title="Telegram"
+                    alt="Telegram"
+                    target="_blank"
+                  >
                     <Image
                       className=" md:w-9"
                       src={telegram}
@@ -32,7 +36,12 @@ function Card() {
                   </Link>
                 </li>
                 <li className="text-black transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased">
-                  <Link href={`https://github.com/Ruslan0019`} title="GitHub" alt="GitHub">
+                  <Link
+                    href={`https://github.com/Ruslan0019`}
+                    title="GitHub"
+                    alt="GitHub"
+                    target="_blank"
+                  >
                     <Image
                       className=" md:w-9"
                       src={github}
@@ -47,6 +56,7 @@ function Card() {
                     href={`https://www.linkedin.com/in/ruslan-afanasiev-6ab32a279/`}
                     title="LinkedIn"
                     alt="LinkedIn"
+                    target="_blank"
                   >
                     <Image
                       className=" md:w-9"
@@ -67,7 +77,7 @@ function Card() {
                 VIEV PROJECTS
               </Link>
               <Link
-                href={"/contact"}
+                href={"/"}
                 className="bg-border rounded-3xl pt-2 pb-2 pr-8 pl-8 text-xs md:text-sm transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased"
               >
                 GET IN TOUCH

@@ -5,43 +5,47 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
 
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       fontSize: {
-        "45px": "45px", // Добавляем кастомный размер шрифта 40 пикселей
+        "45px": "45px",
       },
       fontFamily: {
-        myfont: ["Avenir-Regular", "MAZIUS-Italic", "NeutralFace-Bold", "sans-serif"], // Здесь "sans-serif" - запасной шрифт
+        myfont: [
+          "Avenir-Regular",
+          "MAZIUS-Italic",
+          "NeutralFace-Bold",
+          "sans-serif",
+        ],
       },
       padding: {
-        165: "165px", // Кастомный паддинг
+        165: "165px",
       },
 
       screens: {
-        md: "744px", // Средние экраны
-        lg: "1065px", // Большие экраны
-        xl: "1440px", // Очень большие экраны
+        md: "744px",
+        lg: "1065px",
+        xl: "1440px",
       },
       spacing: {
         "100px": "100px",
-        "689px": "689px",
         "292px": "292px",
-        "960px": "960px",
         "302px": "302px",
-        "1110px": "1110px",
+        "327px": "327px",
         "372px": "372px",
-        "920px": "920px",
-        "804px": "804px",
-        "520px": "520px",
         "488px": "488px",
+        "520px": "520px",
         "540px": "540px",
         "550px": "550px",
-        "720px": "720px",
-        "327px": "327px",
         "640px": "640px",
+        "689px": "689px",
+        "720px": "720px",
+        "804px": "804px",
+        "920px": "920px",
+        "960px": "960px",
+        "1110px": "1110px",
       },
       colors: {
         darkBackground: "#0e1010",

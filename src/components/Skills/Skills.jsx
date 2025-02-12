@@ -9,6 +9,7 @@ import MangoDBIcon from "@/../../public/assets/svg/MangoDB.icon.svg";
 import HTML5Icon from "@/../../public/assets/svg/html5.icon.svg";
 import CSSIcon from "@/../../public/assets/svg/css.icon.svg";
 import GitIcon from "@/../../public/assets/svg/git.icon.svg";
+// import TailwindcssIcon from "@/../../public/assets/svg/icons8-tailwindcss-100.svg";
 
 function Skills() {
   return (
@@ -22,7 +23,7 @@ function Skills() {
       <div className="flex justify-center items-center">
         <ul className=" flex flex-wrap gap-3 w-80 md:w-640px">
           <li>
-            <Image className="  " src={NextJsIcon} alt="Next.js icon" title="Next.js icon" />
+            <Image src={NextJsIcon} alt="Next.js icon" title="Next.js icon" />
           </li>
           <li>
             <Image src={ReactIcon} alt="React icon" title="React icon" />
