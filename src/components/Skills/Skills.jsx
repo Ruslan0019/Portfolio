@@ -1,15 +1,16 @@
-import Image from "next/image";
 import React from "react";
-import JsIcon from "@/../../public/assets/svg/js.icon.svg";
-import ReactIcon from "@/../../public/assets/svg/react.icon.svg";
-import NextJsIcon from "@/../../public/assets/svg/next.js.icon.svg";
-import FigmaIcon from "@/../../public/assets/svg/figma.icon.svg";
-import NodeJsIcon from "@/../../public/assets/svg/node.js.icon.svg";
-import MangoDBIcon from "@/../../public/assets/svg/MangoDB.icon.svg";
-import HTML5Icon from "@/../../public/assets/svg/html5.icon.svg";
-import CSSIcon from "@/../../public/assets/svg/css.icon.svg";
-import GitIcon from "@/../../public/assets/svg/git.icon.svg";
-// import TailwindcssIcon from "@/../../public/assets/svg/icons8-tailwindcss-100.svg";
+import javascript from "../../../public/assets/svg/javascript.svg";
+import html5 from "../../../public/assets/svg/html5.svg";
+import react from "../../../public/assets/svg/react.svg";
+import git from "../../../public/assets/svg/git.svg";
+import nodeJS from "../../../public/assets/svg/nodeJS.svg";
+import css3 from "../../../public/assets/svg/css3.svg";
+import figma from "../../../public/assets/svg/figma.svg";
+import mongoDB from "../../../public/assets/svg/mongoDB.svg";
+import nextJS from "../../../public/assets/svg/nextJS.svg";
+import tailwindCSS from "../../../public/assets/svg/tailwindCSS.svg";
+
+import Image from "next/image";
 
 function Skills() {
   return (
@@ -23,31 +24,100 @@ function Skills() {
       <div className="flex justify-center items-center">
         <ul className=" flex flex-wrap gap-3 w-80 md:w-640px">
           <li>
-            <Image src={NextJsIcon} alt="Next.js icon" title="Next.js icon" />
+            <Image
+              src={nextJS}
+              title="nextJS"
+              alt="nextJS"
+              width={85}
+              className="h-auto"
+            />
+          </li>
+
+          <li>
+            <Image
+              src={react}
+              title="react"
+              alt="react"
+              width={85}
+              className="h-auto"
+            />
+          </li>
+
+          <li>
+            <Image
+              src={javascript}
+              title="javascript"
+              alt="javascript"
+              width={85}
+              className="h-auto"
+            />
+          </li>
+
+          <li>
+            <Image
+              src={html5}
+              title="html5"
+              alt="html5"
+              width={85}
+              className="h-auto"
+            />
+          </li>
+
+          <li>
+            <Image
+              src={css3}
+              title="css3"
+              alt="css3"
+              width={85}
+              className="h-auto"
+            />
+          </li>
+
+          <li>
+            <Image
+              src={git}
+              title="git"
+              alt="git"
+              width={85}
+              className="h-auto"
+            />
           </li>
           <li>
-            <Image src={ReactIcon} alt="React icon" title="React icon" />
+            <Image
+              src={tailwindCSS}
+              title="tailwindCSS"
+              alt="tailwindCSS"
+              width={85}
+              className="h-auto"
+            />
+          </li>
+
+          <li>
+            <Image
+              src={nodeJS}
+              title="nodeJS"
+              alt="nodeJS"
+              width={85}
+              className="h-auto"
+            />
           </li>
           <li>
-            <Image src={JsIcon} alt="Js icon" title="Js icon" />
+            <Image
+              src={figma}
+              title="figma"
+              alt="figma"
+              width={85}
+              className="h-auto"
+            />
           </li>
           <li>
-            <Image src={FigmaIcon} alt="Figma icon" title="Figma icon" />
-          </li>
-          <li>
-            <Image src={NodeJsIcon} alt="NodeJs icon" title="NodeJs icon" />
-          </li>
-          <li>
-            <Image src={MangoDBIcon} alt="MangoDB icon" title="MangoDB icon" />
-          </li>
-          <li>
-            <Image src={HTML5Icon} alt="HTML5 icon" title="HTML5 icon" />
-          </li>
-          <li>
-            <Image src={CSSIcon} alt="CSS icon" title="CSS icon" />
-          </li>
-          <li>
-            <Image src={GitIcon} alt="Git icon" title="Git icon" />
+            <Image
+              src={mongoDB}
+              title="mongoDB"
+              alt="mongoDB"
+              width={85}
+              className="h-auto"
+            />
           </li>
         </ul>
       </div>

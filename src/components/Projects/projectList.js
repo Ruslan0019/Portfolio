@@ -1,15 +1,12 @@
-import { FaReact } from "react-icons/fa6";
-import { FaJs } from "react-icons/fa";
-import { TfiHtml5 } from "react-icons/tfi";
-import { SiCss3 } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
-import { SiNetlify } from "react-icons/si";
-import { IoLogoVercel } from "react-icons/io5";
-import { RiTailwindCssFill } from "react-icons/ri";
 import TikMaker from "@/../../public/assets/img/tikMaker.webp";
 import portfolio from "@/../../public/assets/img/portfolio.png";
 import Yacht from "@/../../public/assets/img/Yacht.png";
 import Bookshelf from "@/../../public/assets/img/Bookshelf.png";
+
+import Image from "next/image";
+
+import react from "@/../../public/assets/svg/react.svg";
+import javaScript from "@/../../public/assets/svg/javaScript.svg";
 
 const projectList = [
   {
@@ -21,19 +18,29 @@ const projectList = [
     image: TikMaker,
     link: "https://tikmaker.app/",
     tech: [
-      { icon: <FaReact size={25} className=" text-blue-500" />, name: "React" },
       {
-        icon: <FaJs size={25} className=" text-[#FFD600]" />,
+        icon: <Image src={react} alt="react" width={25} className="h-auto" />,
+        name: "React",
+      },
+      {
+        icon: (
+          <Image
+            src={javaScript}
+            alt="javaScript"
+            width={25}
+            className="h-auto"
+          />
+        ),
         name: "JavaScript",
       },
       {
-        icon: <TfiHtml5 size={25} className=" text-[#E7A42B]" />,
+        icon: "",
         name: "HTML5",
       },
-      { icon: <SiCss3 size={25} className=" text-[#2AA4F4]" />, name: "CSS3" },
-      { icon: <RiNextjsFill size={25} />, name: "Next.js" },
+      { icon: "", name: "CSS3" },
+      { icon: "", name: "Next.js" },
       {
-        icon: <SiNetlify size={25} className=" text-[#218d8b]" />,
+        icon: "",
         name: "Netlify",
       },
     ],
@@ -48,20 +55,20 @@ const projectList = [
     image: portfolio,
     link: "https://portfolio-flax-seven-83.vercel.app/",
     tech: [
-      { icon: <FaReact size={25} className=" text-blue-500" />, name: "React" },
+      { icon: "", name: "React" },
       {
-        icon: <FaJs size={25} className=" text-[#FFD600]" />,
+        icon: "",
         name: "JavaScript",
       },
       {
-        icon: <TfiHtml5 size={25} className=" text-[#E7A42B]" />,
+        icon: "",
         name: "HTML5",
       },
-      { icon: <SiCss3 size={25} className=" text-[#2AA4F4]" />, name: "CSS3" },
-      { icon: <RiNextjsFill size={25} />, name: "Next.js" },
-      { icon: <IoLogoVercel size={25} />, name: "Vercel" },
+      { icon: "", name: "CSS3" },
+      { icon: "", name: "Next.js" },
+      { icon: "", name: "Vercel" },
       {
-        icon: <RiTailwindCssFill size={25} className=" text-[#00ACC1]" />,
+        icon: "",
         name: "Tailwind CSS",
       },
     ],
@@ -76,14 +83,14 @@ const projectList = [
     link: "https://lakanna.github.io/bestteam-ourteam/index.html",
     tech: [
       {
-        icon: <FaJs size={25} className=" text-[#FFD600]" />,
+        icon: "",
         name: "JavaScript",
       },
       {
-        icon: <TfiHtml5 size={25} className=" text-[#E7A42B]" />,
+        icon: "",
         name: "HTML5",
       },
-      { icon: <SiCss3 size={25} className=" text-[#2AA4F4]" />, name: "CSS3" },
+      { icon: "", name: "CSS3" },
     ],
   },
   {
@@ -96,14 +103,14 @@ const projectList = [
     link: "https://bonny-art.github.io/it-frogs-tp-02/index.html",
     tech: [
       {
-        icon: <FaJs size={25} className=" text-[#FFD600]" />,
+        icon: "",
         name: "JavaScript",
       },
       {
-        icon: <TfiHtml5 size={25} className=" text-[#E7A42B]" />,
+        icon: "",
         name: "HTML5",
       },
-      { icon: <SiCss3 size={25} className=" text-[#2AA4F4]" />, name: "CSS3" },
+      { icon: "", name: "CSS3" },
     ],
   },
 ];

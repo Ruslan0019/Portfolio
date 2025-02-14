@@ -1,9 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import linkedIn from "/public/assets/svg/icons8.svg";
-import telegram from "/public/assets/svg/icons10.svg";
-import github from "/public/assets/svg/icons9.svg";
+import githubWhite from "../../../public/assets/svg/githubWhite.svg";
+import telegramWhite from "../../../public/assets/svg/telegramWhite.svg";
+import linkedinWhite from "../../../public/assets/svg/linkedinWhite.svg";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -18,11 +18,11 @@ function Footer() {
               target="_blank"
             >
               <Image
-                className="md:w-9"
-                src={telegram}
+                src={telegramWhite}
+                title="telegram"
+                alt="telegram"
                 width={32}
-                alt="Telegram"
-                title="Telegram"
+                className="h-auto"
               />
             </Link>
           </li>
@@ -34,11 +34,11 @@ function Footer() {
               target="_blank"
             >
               <Image
-                className="md:w-9"
-                src={github}
+                src={githubWhite}
+                title="github"
+                alt="github"
                 width={32}
-                title="Github"
-                alt="Github"
+                className="h-auto"
               />
             </Link>
           </li>
@@ -50,11 +50,11 @@ function Footer() {
               target="_blank"
             >
               <Image
-                className=" md:w-9"
-                src={linkedIn}
+                src={linkedinWhite}
+                title="linkedin"
+                alt="linkedin"
                 width={32}
-                title="LinkedIn"
-                alt="LinkedIn"
+                className="h-auto"
               />
             </Link>
           </li>

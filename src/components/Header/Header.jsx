@@ -44,7 +44,10 @@ function Header() {
         <nav className=" pt-36 pl-14 text-white">
           <ul className="">
             <li className="pl-28">
-              <div className="flex text-white cursor-pointer" onClick={toggleMenu}>
+              <div
+                className="flex text-white cursor-pointer"
+                onClick={toggleMenu}
+              >
                 <span className="text-2xl">✕</span>
               </div>
             </li>

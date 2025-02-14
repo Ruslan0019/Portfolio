@@ -5,7 +5,7 @@ function About() {
     <section className="flex pt-11 justify-center  items-center   pb-11">
       <div className="flex  flex-col   md:flex-row md:w-689px xl:w-720px gap-2 md:gap-5 lg:gap-6 xl:gap-11 ">
         <div>
-          <h2 className="text-center  font-MAZIUS-Italic italic text-3xl xl:text-4xl ">
+          <h2 className="text-center  font-MAZIUS-Italic italic text-[28px] md:text-[32px] xl:text-4xl ">
             about me
           </h2>
         </div>
