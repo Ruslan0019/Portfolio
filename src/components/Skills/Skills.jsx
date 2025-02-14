@@ -45,7 +45,7 @@ function Skills() {
 
           <li>
             <Image
-              src={javascript}
+              src={javaScript}
               title="javascript"
               alt="javascript"
               width={85}
