@@ -1,5 +1,5 @@
 import React from "react";
-import javascript from "../../../public/assets/svg/javascript.svg";
+import javaScript from "../../../public/assets/svg/javaScript.svg";
 import html5 from "../../../public/assets/svg/html5.svg";
 import react from "../../../public/assets/svg/react.svg";
 import git from "../../../public/assets/svg/git.svg";
