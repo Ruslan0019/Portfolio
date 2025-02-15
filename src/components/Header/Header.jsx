@@ -53,9 +53,7 @@ function Header() {
             </li>
 
             <li className="transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased">
-              <Link href={`/projects`} title="about">
-                PROJECTS
-              </Link>
+              <button>PROJECTS</button>
             </li>
           </ul>
         </nav>
