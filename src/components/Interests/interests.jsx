@@ -20,7 +20,7 @@ function Interests() {
       <ul className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3 lg:gap-[14px] xl:gap-4 ">
         {interests.map((interest, index) => (
           <li
-            className=" text-center pl-5 pr-5 w-[159px] md:w-[226px] lg:w-[312px] xl:w-[359px] h-[77px] md:h-[120px] lg:h-[166px]  xl:h-[202px] flex items-center justify-center rounded-[10px] md:rounded-[25px] bg-[#272D2B]  text-[14px] md:text-[16px] lg:text-[20px]"
+            className="drop-shadow-xl text-center pl-5 pr-5 w-max-[159px] md:w-[226px] lg:w-[312px] xl:w-[359px] h-[77px] md:h-[120px] lg:h-[166px]  xl:h-[202px] flex items-center justify-center rounded-[10px] md:rounded-[25px] bg-[#272D2B]  text-[14px] md:text-[16px] lg:text-[20px]"
             key={index}
           >
             {interest}

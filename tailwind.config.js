@@ -48,7 +48,7 @@ module.exports = {
         "1110px": "1110px",
       },
       colors: {
-        darkBackground: "#0e1010",
+        darkBackground: "#1f1f1f",
         border: "#272D2B",
         get: "#2F3634",
         textIcon: "#D1D5DB",

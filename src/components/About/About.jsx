@@ -10,7 +10,7 @@ function About() {
           </h2>
         </div>
         <div className="max-w-327px md:max-w-520px lg:max-w-488px xl:max-w-540px ">
-          <p className="text-center md:text-start font-Avenir-Regular text-base xl:text-xl ">
+          <p className=" text-center md:text-start font-Avenir-Regular text-base xl:text-xl ">
             Hello! My name is Ruslan and I enjoy creating things.
             <br />
             <br /> Full-stack Developer with experience in React, HTML, CSS, and

@@ -28,7 +28,7 @@ function Skills() {
               src={nextJS}
               title="nextJS"
               alt="nextJS"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
@@ -38,7 +38,7 @@ function Skills() {
               src={react}
               title="react"
               alt="react"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
@@ -48,7 +48,7 @@ function Skills() {
               src={javaScript}
               title="javascript"
               alt="javascript"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
@@ -58,7 +58,7 @@ function Skills() {
               src={html5}
               title="html5"
               alt="html5"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
@@ -68,7 +68,7 @@ function Skills() {
               src={css3}
               title="css3"
               alt="css3"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
@@ -78,7 +78,7 @@ function Skills() {
               src={git}
               title="git"
               alt="git"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
@@ -87,7 +87,7 @@ function Skills() {
               src={tailwindCSS}
               title="tailwindCSS"
               alt="tailwindCSS"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
@@ -97,7 +97,7 @@ function Skills() {
               src={nodeJS}
               title="nodeJS"
               alt="nodeJS"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
@@ -106,7 +106,7 @@ function Skills() {
               src={figma}
               title="figma"
               alt="figma"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
@@ -115,7 +115,7 @@ function Skills() {
               src={mongoDB}
               title="mongoDB"
               alt="mongoDB"
-              width={85}
+              width={75}
               className="h-auto"
             />
           </li>
