@@ -1,4 +1,4 @@
-// import TikMaker from "../../../public/assets/img/tikmaker.PNG";
+import TikMaker from "../../../public/assets/img/tikmaker.png";
 import portfolio from "../../../public/assets/img/portfolio.png";
 import Yacht from "../../../public/assets/img/Yacht.png";
 import Bookshelf from "../../../public/assets/img/Bookshelf.png";
