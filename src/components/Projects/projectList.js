@@ -68,7 +68,7 @@ const projectList = [
     name: "Yacht adventures",
     category: "WEB DEVELOPMENT",
     description:
-      "Lorem ipsum dolor sit amet. Qui consequatur rerum eum assumenda accusamus et fuga numquam quo reprehenderit sequi...",
+      "\nYacht adventures is a team-based educational project developed during my studies at GoIT. The main focus was on layout development using HTML and CSS, as well as working with Git and organizing the workflow through Trello. The design was created in Figma, and we translated it into code.\n\n✅ Implemented the UI layout based on the Figma design\n✅ Worked with team branches in Git\n✅ Used Trello for task management\n✅ Collaborated and coordinated with the team",
     image: Yacht,
     link: "https://lakanna.github.io/bestteam-ourteam/index.html",
     linkCode: "https://github.com/Lakanna/bestteam-ourteam",
@@ -85,7 +85,7 @@ const projectList = [
     name: "Bookshelf",
     category: "WEB DEVELOPMENT",
     description:
-      "Lorem ipsum dolor sit amet. Qui consequatur rerum eum assumenda accusamus et fuga numquam quo reprehenderit sequi...",
+      "\nBookshelf is the second team project, where we also utilized JavaScript to implement interactive features. As in the previous project, we worked with Git, Trello, and transferred the design from Figma into code.\n\n✅ Developed and styled the UI based on the Figma design✅ Implemented functionality using vanilla JavaScript\n✅ Worked with Git and managed branches\n✅ Coordinated team efforts using Trello",
     image: Bookshelf,
     link: "https://bonny-art.github.io/it-frogs-tp-02/index.html",
     linkCode: "https://github.com/bonny-art/it-frogs-tp-02",
