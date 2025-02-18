@@ -28,7 +28,7 @@ const projectList = [
     name: "Tikmaker",
     category: "WEB DEVELOPMENT",
     description:
-      "Lorem ipsum dolor sit amet. Qui consequatur rerum eum assumenda accusamus et fuga numquam quo reprehenderit sequi...",
+      "\nTikMaker.app is a web application for content creation. The project is fully developed from scratch, with a focus on performance optimization and SEO.\n\n✅Frontend Development — independently implemented the entire UI/UX, responsive design, and backend integration.\n✅Next.js for SEO — migrated the project to Next.js to improve search engine indexing.\n✅Multilingual Support — implemented support for multiple languages.\n✅Dev Environment Setup — optimized the build process and automated deployment workflows.\n✅SEO Optimization — configured meta tags, Open Graph, schema.org, and other SEO metrics.\n✅Performance Optimization — reduced page load time and improved caching.",
     image: TikMaker,
     link: "https://tikmaker.app/",
     linkCode: "",
@@ -48,7 +48,7 @@ const projectList = [
     name: "Portfolio",
     category: "WEB DEVELOPMENT",
     description:
-      "Lorem ipsum dolor sit amet. Qui consequatur rerum eum assumenda accusamus et fuga numquam quo reprehenderit sequi...",
+      "\nThis is a personal portfolio created to showcase my web development skills. The project was built using best practices and patterns, focusing on high performance and quality UI/UX.\n\n✅ Next.js + Tailwind CSS — an efficient combination for fast development and optimized performance.\n✅ Responsive Design — the portfolio is fully adaptable to all devices./High Performance — optimized the site for maximum loading speed.\n✅ SEO Optimization — configured meta tags and other parameters to improve indexing.\n✅ Best Practices — followed modern development patterns for clean and scalable code.",
     image: portfolio,
     link: "https://portfolio-flax-seven-83.vercel.app/",
     linkCode: "https://github.com/Ruslan0019/Portfolio",

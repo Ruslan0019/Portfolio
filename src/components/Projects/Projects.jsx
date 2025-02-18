@@ -42,7 +42,7 @@ function Projects() {
               <h2 className="text-[24px] md:text-[32px] xl:text-[36px]">
                 {project.name}
               </h2>
-              <p className="text-base xl:text-[20px] mb-3 md:mb-5">
+              <p className="text-base xl:text-[20px] mb-3 md:mb-5 whitespace-pre-line">
                 {project.description}
               </p>
               <div className="flex flex-col gap-2 ">
