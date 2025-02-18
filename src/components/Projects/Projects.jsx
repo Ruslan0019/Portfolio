@@ -45,8 +45,8 @@ function Projects() {
               <p className="text-base xl:text-[20px] mb-3 md:mb-5">
                 {project.description}
               </p>
-              <div className="flex justify-between ">
-                <ul className="flex gap-1">
+              <div className="flex flex-col gap-2 ">
+                <ul className="flex gap-1 content-center ">
                   {project.tech.map((tech, i) => (
                     <li key={i} title={tech.name}>
                       <Image
