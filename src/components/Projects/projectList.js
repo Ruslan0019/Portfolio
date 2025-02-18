@@ -85,7 +85,7 @@ const projectList = [
     name: "Bookshelf",
     category: "WEB DEVELOPMENT",
     description:
-      "\nBookshelf is the second team project, where we also utilized JavaScript to implement interactive features. As in the previous project, we worked with Git, Trello, and transferred the design from Figma into code.\n\n✅ Developed and styled the UI based on the Figma design✅ Implemented functionality using vanilla JavaScript\n✅ Worked with Git and managed branches\n✅ Coordinated team efforts using Trello",
+      "\nBookshelf is the second team project, where we also utilized JavaScript to implement interactive features. As in the previous project, we worked with Git, Trello, and transferred the design from Figma into code.\n\n✅ Developed and styled the UI based on the Figma design\n✅ Implemented functionality using vanilla JavaScript\n✅ Worked with Git and managed branches\n✅ Coordinated team efforts using Trello",
     image: Bookshelf,
     link: "https://bonny-art.github.io/it-frogs-tp-02/index.html",
     linkCode: "https://github.com/bonny-art/it-frogs-tp-02",
