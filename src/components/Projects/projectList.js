@@ -1,15 +1,15 @@
-import TikMaker from "../../../public/assets/img/TikMaker.png";
-import portfolio from "../../../public/assets/img/portfolio.png";
-import Yacht from "../../../public/assets/img/Yacht.png";
-import Bookshelf from "../../../public/assets/img/Bookshelf.png";
-import javaScript from "../../../public/assets/svg/javaScript.svg";
-import html5 from "../../../public/assets/svg/html5.svg";
-import react from "../../../public/assets/svg/react.svg";
-import git from "../../../public/assets/svg/git.svg";
-import css3 from "../../../public/assets/svg/css3.svg";
-import figma from "../../../public/assets/svg/figma.svg";
-import nextJS from "../../../public/assets/svg/nextJS.svg";
-import tailwindCSS from "../../../public/assets/svg/tailwindCSS.svg";
+import TikMaker from "/assets/img/tikmaker.png";
+import portfolio from "assets/img/portfolio.png";
+import Yacht from "/assets/img/Yacht.png";
+import Bookshelf from "/assets/img/Bookshelf.png";
+import javaScript from "/assets/svg/javaScript.svg";
+import html5 from "/assets/svg/html5.svg";
+import react from "/assets/svg/react.svg";
+import git from "/assets/svg/git.svg";
+import css3 from "/assets/svg/css3.svg";
+import figma from "/assets/svg/figma.svg";
+import nextJS from "/assets/svg/nextJS.svg";
+import tailwindCSS from "/assets/svg/tailwindCSS.svg";
 // import mongoDB from "../../../public/assets/svg/mongoDB.svg";
 // import nodeJS from "../../../public/assets/svg/nodeJS.svg";
 
