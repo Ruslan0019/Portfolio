@@ -11,13 +11,18 @@ function About() {
         </div>
         <div className="max-w-327px md:max-w-520px lg:max-w-488px xl:max-w-540px ">
           <p className=" text-center md:text-start font-Avenir-Regular text-base xl:text-xl ">
-            Hello! My name is Ruslan and I enjoy creating things.
+            Hello! My name is Ruslan, and I enjoy creating things on the web.
             <br />
-            <br /> Full-stack Developer with experience in React, HTML, CSS, and
-            JavaScript. Completed several pet projects and contributed to a
-            commercial startup project. Focused on writing clean code, learning
-            modern technologies, and tackling challenging tasks. Eager to learn
-            quickly and work effectively in a team.
+            <br /> I am a Full-stack developer with experience in Next.js,
+            React, JavaScript, HTML, NodeJS, CSS, and Tailwind CSS. I have
+            independently developed and maintain TikMaker.app, built my
+            portfolio website, and contributed to team projects during my
+            studies. I focus on writing clean, maintainable code, optimizing
+            performance and SEO, and following modern development best
+            practices. I thrive on solving challenging problems and continuously
+            expanding my skill set. I take ownership of my work and collaborate
+            effectively to achieve project goals. Looking forward to new
+            opportunities and exciting projects!
           </p>
         </div>
       </div>
