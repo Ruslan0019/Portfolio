@@ -8,8 +8,8 @@ import Image from "next/image";
 function Card() {
   return (
     <section className="flex pt-6 justify-center  items-center pb-11">
-      <div className=" drop-shadow-[0_25px_25px_rgb(0,0,0,0.2)]   w-80  md:w-689px  lg:w-960px xl:w-1110px h-60 md:h-292px lg:h-302px xl:h-372px bg-[url('/assets/img/qwerty.png')]   bg-cover bg-center  rounded-3xl  ">
-        <div className="flex items-center justify-center absolute inset-0 bg-white/60 rounded-3xl">
+      <div className=" relative  drop-shadow-[0_25px_25px_rgb(0,0,0,0.2)]   w-80  md:w-689px  lg:w-960px xl:w-1110px h-60 md:h-292px lg:h-302px xl:h-372px bg-[url('/assets/img/qwerty.png')]   bg-cover bg-center  rounded-3xl  ">
+        <div className="flex items-center justify-center absolute inset-0 bg-white/70 rounded-3xl  w-80  md:w-689px  lg:w-960px xl:w-1110px h-60 md:h-292px lg:h-302px xl:h-372px ">
           <div className=" w-292px md:w-550px lg:w-804px xl:w-920px ">
             <h2 className=" ml-5 text-darkBackground font-MAZIUS-Italic italic text-[28px] md:text-[32px] xl:text-[36px]  ">
               hello!
