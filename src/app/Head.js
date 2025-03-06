@@ -17,6 +17,7 @@ export default function Head() {
         property="og:url"
         content="https://portfolio-flax-seven-83.vercel.app/"
       />
+      <link rel="icon" href="/logo.png" />
       <meta
         property="og:image"
         content="https://portfolio-flax-seven-83.vercel.app/logo.png"
@@ -26,11 +27,7 @@ export default function Head() {
         content="Explore my portfolio showcasing my work as a Full Stack Developer. Learn more about my skills, experience, and projects."
       />
 
-      <link
-        rel="apple-touch-icon"
-        type="image/png"
-        href="/apple-touch-icon.png"
-      />
+      <link rel="apple-touch-icon" type="image/png" href="/logo.png" />
 
       <link rel="icon" type="image/png" href="/favIcon/favicon16x16.png" />
       <link rel="icon" type="image/png" href="/favIcon/favicon32x32.png" />
