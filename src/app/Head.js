@@ -8,7 +8,7 @@ export default function Head() {
       <meta property="og:locale" content="en" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Portfolio" />
-      <meta property="og:title" content="My Portfolio - Frontend Developer" />
+      <meta property="og:title" content="My Portfolio - Full Stack Developer" />
       <meta
         property="og:description"
         content="Welcome to my personal portfolio website. Discover my projects, skills, and experience as a Full Stack Developer."
