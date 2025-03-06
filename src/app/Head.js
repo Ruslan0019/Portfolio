@@ -19,7 +19,7 @@ export default function Head() {
       />
       <meta
         property="og:image"
-        content="https://portfolio-flax-seven-83.vercel.app/apple-touch-icon.png"
+        content="https://portfolio-flax-seven-83.vercel.app/logo.png"
       />
       <meta
         name="description"
