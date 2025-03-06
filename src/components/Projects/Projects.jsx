@@ -6,10 +6,10 @@ import projects from "./projectList";
 function Projects() {
   return (
     <section className="flex flex-col pt-11 justify-center items-center pb-11">
-      <h2 className="text-center italic text-[28px] md:text-[32px] xl:text-[36px] mb-3">
+      <h2 className=" text-text text-center italic text-[36px] md:text-[32px] xl:text-[36px] mb-6">
         project
       </h2>
-      <p className="text-center text-[16px] xl:text-[20px] mb-8 regular">
+      <p className="text-text text-center text-[16px] xl:text-[20px] mb-8 regular">
         Some things I’ve worked (or am working) on
       </p>
       <ul className="flex flex-col gap-[42px] md:gap-[62px] lg:gap-[52px] xl:gap-[100px]">
@@ -26,7 +26,7 @@ function Projects() {
               href={project.link}
             >
               <Image
-                className="rounded-lg object-cover mb-2 h-28 md:h-[268px] md:w-[340px] lg:w-[589px]"
+                className="rounded-lg object-cover mb-8 h-28 md:h-[268px] md:w-[340px] lg:w-[589px]"
                 src={project.image}
                 alt={project.name}
                 title={project.name}
@@ -39,13 +39,13 @@ function Projects() {
               <h2 className="text-[rgb(133,149,145)] text-[16px] md:text-[20px]">
                 {project.category}
               </h2>
-              <h2 className="text-[24px] md:text-[32px] xl:text-[36px]">
+              <h2 className=" text-text text-[24px] md:text-[32px] xl:text-[36px]">
                 {project.name}
               </h2>
-              <p className="text-base xl:text-[20px] mb-3 md:mb-5 whitespace-pre-line">
+              <p className=" text-text text-base xl:text-[20px] mb-3 md:mb-5 whitespace-pre-line">
                 {project.description}
               </p>
-              <div className="flex flex-col gap-2 ">
+              <div className="flex flex-col gap-6 ">
                 <ul className="flex gap-1 content-center ">
                   {project.tech.map((tech, i) => (
                     <li key={i} title={tech.name}>
@@ -62,7 +62,7 @@ function Projects() {
 
                 {index > 0 && (
                   <Link
-                    className="  shadow-md shadow-gray-900 transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased  text-[16px] w-[123px] md:w-[184px] bg-[#2F3634] hover:bg-[#859591]  py-[10px]  rounded-[74px] cursor-pointer text-center"
+                    className="  shadow-md shadow-gray-900 transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased  text-[16px] w-[123px] md:w-[184px] bg-border hover:bg-[#959595]  py-[10px]  rounded-[74px] cursor-pointer text-center"
                     href={project.linkCode}
                     target="_blank"
                   >

@@ -48,10 +48,11 @@ module.exports = {
         "1110px": "1110px",
       },
       colors: {
-        darkBackground: "#1f1f1f",
-        border: "#272D2B",
+        darkGray: "#242323",
+        border: "#363636",
         get: "#2F3634",
         textIcon: "#D1D5DB",
+        text: "#F5F5F0",
       },
     },
   },

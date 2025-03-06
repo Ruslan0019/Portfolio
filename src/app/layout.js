@@ -4,6 +4,7 @@ import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
   title: "Portfolio",
+
   description:
     "Developer portfolio showcasing information about me, my professional skills, and completed projects. Includes examples of work in web development, frontend and backend development using modern technologies.",
   icons: {
@@ -29,7 +30,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="text-white bg-darkBackground px-6 lg:px-8 xl:px-165">
+      <body className="text-white bg-darkGray px-6 lg:px-8 xl:px-165">
         <Header />
         {children}
         <Footer />

@@ -15,10 +15,10 @@ import Image from "next/image";
 function Skills() {
   return (
     <section className="pt-11 md:pt-14 lg:pt-32 xl:pt-40 pb-16 md:pb-24 lg:pb-44 xl:pb-60">
-      <h2 className="text-center  font-MAZIUS-Italic italic text-3xl xl:text-4xl mb-2 xl:mb-6">
+      <h2 className="text-center text-text font-MAZIUS-Italic italic text-3xl xl:text-4xl mb-2 xl:mb-6">
         skills
       </h2>
-      <p className="text-center font-Avenir-Regular mb-4 md:mb-8 lg:mb-7 xl:mb-11">
+      <p className="text-center text-text font-Avenir-Regular mb-4 md:mb-8 lg:mb-7 xl:mb-11">
         Skills, tools and technologies that I own
       </p>
       <div className="flex justify-center items-center">

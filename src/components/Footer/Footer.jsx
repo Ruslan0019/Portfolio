@@ -8,7 +8,9 @@ import Image from "next/image";
 function Footer() {
   return (
     <footer className="pt-8 pb-6 border-t border-border">
-      <p className="flex mb-4 items-center justify-center">Contact me</p>
+      <p className="flex mb-4 items-center justify-center text-text">
+        Contact me
+      </p>
       <nav className="flex flex-col  gap-6 items-center justify-center">
         <ul className="flex gap-6 items-center justify-center">
           <li className=" transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased">
@@ -60,7 +62,9 @@ function Footer() {
           </li>
         </ul>
         <div>
-          <p>© 2024 Afanasiev Ruslan All Rights Reserved</p>
+          <p className="text-text">
+            © 2024 Afanasiev Ruslan All Rights Reserved
+          </p>
         </div>
       </nav>
     </footer>

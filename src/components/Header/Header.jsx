@@ -14,25 +14,11 @@ function Header() {
       <header className="pt-2 pb-3 border-b border-border md:pt-3 md:pb-6">
         <nav className="flex justify-between items-center">
           <Link href={`/`} title="Home" alt="Home">
-            <h1 className="text-3xl md:text-45px font-bold font-MAZIUS-Italic italic transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased">
+            <h1 className=" text-[#F5F5F0] text-3xl md:text-45px font-bold font-MAZIUS-Italic italic transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased">
               Afanasiev Ruslan
             </h1>
           </Link>
-          <div className="cursor-pointer ml-auto" onClick={toggleMenu}>
-            <svg
-              className="w-4 h-4 md:w-6 md:h-6 transform transition-transform duration-300 hover:scale-110 will-change-transform antialiased"
-              viewBox="0 0 30 30"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.405 2.09h26.703M2.405 20.87h26.703M2.405 11.48h26.703"
-                stroke="#fff"
-                strokeWidth="2"
-                strokeLinecap="round"
-              />
-            </svg>
-          </div>
+          <div className="cursor-pointer ml-auto" onClick={toggleMenu}></div>
         </nav>
       </header>
 
