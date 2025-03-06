@@ -13,14 +13,11 @@ export default function Head() {
         property="og:description"
         content="Welcome to my personal portfolio website. Discover my projects, skills, and experience as a Full Stack Developer."
       />
-      <meta
-        property="og:url"
-        content="https://portfolio-flax-seven-83.vercel.app/"
-      />
+      <meta property="og:url" content="https://ruslan-afanasiev.vercel.app/" />
       <link rel="icon" href="/logo.png" />
       <meta
         property="og:image"
-        content="https://portfolio-flax-seven-83.vercel.app/logo.png"
+        content="https://ruslan-afanasiev.vercel.app/"
       />
       <meta
         name="description"
@@ -32,10 +29,7 @@ export default function Head() {
       <link rel="icon" type="image/png" href="/favIcon/favicon16x16.png" />
       <link rel="icon" type="image/png" href="/favIcon/favicon32x32.png" />
 
-      <link
-        rel="canonical"
-        href="https://portfolio-flax-seven-83.vercel.app/"
-      />
+      <link rel="canonical" href="https://ruslan-afanasiev.vercel.app/" />
     </>
   );
 }
