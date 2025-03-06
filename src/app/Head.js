@@ -17,7 +17,7 @@ export default function Head() {
       <link rel="icon" href="/logo.png" />
       <meta
         property="og:image"
-        content="https://ruslan-afanasiev.vercel.app/"
+        content="https://ruslan-afanasiev.vercel.app/logo.png"
       />
       <meta
         name="description"
