@@ -50,7 +50,7 @@ const projectList = [
     description:
       "\nThis is a personal portfolio created to showcase my web development skills. The project was built using best practices and patterns, focusing on high performance and quality UI/UX.\n\n✅ Next.js + Tailwind CSS — an efficient combination for fast development and optimized performance.\n✅ Responsive Design — the portfolio is fully adaptable to all devices./High Performance — optimized the site for maximum loading speed.\n✅ SEO Optimization — configured meta tags and other parameters to improve indexing.\n✅ Best Practices — followed modern development patterns for clean and scalable code.",
     image: portfolio,
-    link: "https://portfolio-flax-seven-83.vercel.app/",
+    link: "https://ruslan-afanasiev.vercel.app/",
     linkCode: "https://github.com/Ruslan0019/Portfolio",
     tech: [
       techStack.TailwindCSS,
