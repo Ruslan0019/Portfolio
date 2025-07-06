@@ -26,8 +26,8 @@ export default function Head() {
 
       <link rel="apple-touch-icon" type="image/png" href="/logo.png" />
 
-      <link rel="icon" type="image/png" href="/favIcon/favicon16x16.png" />
-      <link rel="icon" type="image/png" href="/favIcon/favicon32x32.png" />
+      <link rel="icon" type="image/png" href="/favicon16x16.png" />
+      <link rel="icon" type="image/png" href="/favicon32x32.png" />
 
       <link rel="canonical" href="https://ruslan-afanasiev.vercel.app/" />
     </>
