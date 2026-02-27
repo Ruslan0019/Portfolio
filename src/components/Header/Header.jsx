@@ -14,15 +14,15 @@ function Header() {
             >
               Afanasiev Ruslan
             </Link>
-            <Link
-              href={`/contact
-                `}
-              title="Home"
-              alt="Home"
-              className=" text-[#F5F5F0] text-3xl md:text-45px font-bold font-MAZIUS-Italic italic transform transition-transform duration-300 hover:scale-105 will-change-transform antialiased"
-            >
-              Contact
-            </Link>
+            <div className="flex gap-4">
+              <Link
+                href="/contact"
+                title="Contact"
+                className="text-[#F5F5F0] hover:opacity-80 transition-opacity"
+              >
+                Contact
+              </Link>
+            </div>
           </nav>
         </div>
       </header>

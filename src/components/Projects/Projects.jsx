@@ -32,7 +32,8 @@ function Projects() {
                 title={project.name}
                 width={327}
                 height={114}
-                quality={100}
+                quality={75}
+                priority={index === 0}
               />
             </Link>
             <div className="md:w-[340px] lg:w-[345px]">
